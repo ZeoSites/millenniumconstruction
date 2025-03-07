@@ -177,7 +177,7 @@ for d in os.listdir('metal-roofing'):
                     try:
                         search_categories = open(f'metal-roofing/{d}/{c}/{b}', "r", encoding="utf8").read()
                         
-                        op= search_categories.replace("﻿", '').replace('https://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('http://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('(206) 738-7253', '(888) 498-9391').replace('tel:2067387253', 'tel:8884989391')
+                        op= search_categories.replace("﻿", '').replace('https://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('http://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('(206) 738-7253', '(888) 498-9391').replace('tel:2067387253', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
          
                         
                         fp = open(f'metal-roofing/{d}/{c}/{b}', "w", encoding='utf-8-sig')
@@ -193,7 +193,7 @@ for d in os.listdir('metal-roofing'):
 for d in os.listdir('metal-roofing'):
     try:
         search_categories = open(f'metal-roofing/{d}/index.html', "r", encoding="utf8").read()
-        op= search_categories.replace("﻿", '').replace('https://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('http://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('(206) 738-7253', '(888) 498-9391').replace('tel:2067387253', 'tel:8884989391')
+        op= search_categories.replace("﻿", '').replace('https://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('http://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('(206) 738-7253', '(888) 498-9391').replace('tel:2067387253', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
         # if 'metal-roofing' in str(d):
         #     shutil.rmtree(f'metal-roofing/{d}')
             
@@ -216,7 +216,7 @@ for d in os.listdir('metal-roofing'):
 try:
     search_categories = open(f'metal-roofing/index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('http://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('(206) 738-7253', '(888) 498-9391').replace('tel:2067387253', 'tel:8884989391')
+    op= search_categories.replace("﻿", '').replace('https://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('http://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('(206) 738-7253', '(888) 498-9391').replace('tel:2067387253', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
     
     fp = open(f'metal-roofing/index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
@@ -227,7 +227,7 @@ except:
 try:
     search_categories = open(f'index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('http://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('(206) 738-7253', '(888) 498-9391').replace('tel:2067387253', 'tel:8884989391')
+    op= search_categories.replace("﻿", '').replace('https://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('http://millenniumconstruction.biz/', 'https://millenniumconstruction.netlify.app/').replace('(206) 738-7253', '(888) 498-9391').replace('tel:2067387253', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
     
     fp = open(f'metal-roofing/index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
